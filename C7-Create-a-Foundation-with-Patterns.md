@@ -1,0 +1,22 @@
+- Using the Explore design mindset
+- most issues have already been solved before, experienced architects explore their catalogue of design patterns to find a solution before attempting to design something new.
+- with this every pattern can be used and adapted to the specific problem spaces.
+- An architecture pattern is a resuable solution to a specific problem.
+- The ultimate goal of using a pattern is promote quality attributes of our system using a combination of structures
+- Important to understand the difference between a design pattern and an architecture pattern
+- Design patterns are a design tool regardless of abstraction. They exist for database design, user experience, testing
+- Architecture patterns differ from programming design patterns (GOF)
+- GOF (Gang of Four): how to organise a object-oriented program to promote reusability and maintainability
+- Architecture patterns define solutions for quality attribute scenarios pertaining to design, runtime and coceptual - often dealing with multiple components
+- Architecture Patterns: Layers Pattern, Ports and Adapters Pattern, Pipe and Filter Pattern, Service-Oriented Architecture, Publish-Subscribe pattern, Shared-Data Pattern,
+  Multi-Tier Pattern, Center of Competence Pattern, Open Source Contribution Pattern, Big Ball of Mud Pattern
+-  The Layers Pattern is an architectural design pattern that organizes software into distinct layers, each with a specific responsibility.
+    - Uses Modules, each module should belong to a layer. Layers group functionally cohesive modules.
+    - There is a one way relationship between layers, a higher up layer should use layers below but this relation only goes one way.
+    - Cyclical dependencies are not permitted
+    - each layer introduces abstraction, making it a difficult developer experience to understand abstractions between the lowest and highest levels
+- Ports and Adapters Pattern
+    - Also known as hexagonal architecure
+    - Given because of the shape used to describe the pattern
+    - having many sides or ports each of which can connect to external systems through adapters
+  
